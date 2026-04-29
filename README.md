@@ -5,7 +5,7 @@ simpler, single-script implentation of a camera shake module based on sleitnick'
 local CameraShake = require('@self/CameraShake')
 
 CameraShake:SetParameters(
-  Magnitude = 0.6,
+	Magnitude = 0.6,
 	Roughness = 4,
 	
 	PositionalInfluence = Vector3.new(0.15, 0.15, 0.15),
