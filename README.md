@@ -2,7 +2,7 @@
 simpler, single-script implentation of a camera shake module based on sleitnick's port of EZ Camera Shake.
 
 ```luau
-local CameraShake = require('@self/CameraShake`)
+local CameraShake = require('@self/CameraShake')
 
 CameraShake:SetParameters(
   Magnitude = 0.6,
@@ -18,5 +18,4 @@ repeat task.wait() until not CameraShake:IsShaking()
 CameraShake:StartSustain()
 task.wait(5)
 CameraShake:StopSustain()
-
 ```
