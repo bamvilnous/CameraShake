@@ -39,6 +39,7 @@ function _stopShake()
 		CameraShake.Tick = Random.new():NextNumber(-100, 100)
 		CameraShake.Timer = 0
 		CameraShake.ExpireTime = nil
+		CameraShake.Shaking = false
 	end
 end
 
